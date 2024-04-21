@@ -3936,6 +3936,17 @@ export enum Action {
     LiveboardUsers = 'liveboardUsers',
 
     /**
+     * Action ID for AI Highlights button
+     *
+     *  @example
+     * ```js
+     * hiddenAction: [Action.TML]
+     * ```
+     * Thoughtspot: 9.10.5.cl
+     */
+    TML = 'TML',
+
+    /**
      * Action ID for to hide Verified Liveboard Banner
      *
      *  @example
