@@ -3937,9 +3937,18 @@ export enum Action {
 
     /**
      * Action ID for the Parent TML action
-     * For all TML-related configurations on the Answer page, the parent action **TML** must be included to access items ExportTML, EditTML and UpdateTML within the cascading menu
+     * The parent action **TML** must be included to access TML-related options within the cascading menu
      * 
+     * @example
+     * ```js
+     * visibleActions: [Action.TML, Action.ExportTML, Action.EditTML] // to include specific TML actions
      * ```
+     * @example
+     * ```js
+     * hiddenAction: [Action.TML] // hide all TML actions
+     * disabledActions: [Action.TML] // to disable all TML actions
+     * ```
+     * 
      * @version SDK : 1.28.1 | Thoughtspot: 9.10.5.cl
      */
     TML = 'TML',
