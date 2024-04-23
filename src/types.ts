@@ -3936,13 +3936,13 @@ export enum Action {
     LiveboardUsers = 'liveboardUsers',
 
     /**
-     * Action ID for AI Highlights button
+     * Action ID for the Parent TML action
      *
      *  @example
      * ```js
      * hiddenAction: [Action.TML]
      * ```
-     * Thoughtspot: 9.10.5.cl
+     * @version SDK : 1.28.1 | Thoughtspot: 9.10.5.cl
      */
     TML = 'TML',
 
