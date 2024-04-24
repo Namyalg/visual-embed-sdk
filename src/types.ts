@@ -3951,7 +3951,7 @@ export enum Action {
      * 
      * @version SDK : 1.28.1 | Thoughtspot: 9.10.5.cl
      */
-    TML = 'TML',
+    TML = 'tml',
 
     /**
      * Action ID for to hide Verified Liveboard Banner
