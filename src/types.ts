@@ -3937,7 +3937,7 @@ export enum Action {
 
     /**
      * Action ID for the Parent TML action
-     * The parent action **TML** must be included to access TML-related options within the cascading menu
+     * The parent action **TML** must be included to access TML-related options within the cascading menu (specific to answer page)
      * 
      * @example
      * ```js
@@ -3949,7 +3949,7 @@ export enum Action {
      * disabledActions: [Action.TML] // to disable all TML actions
      * ```
      * 
-     * @version SDK : 1.28.1 | Thoughtspot: 9.10.5.cl
+     * @version SDK : 1.28.2 | Thoughtspot: 9.10.5.cl
      */
     TML = 'tml',
 
