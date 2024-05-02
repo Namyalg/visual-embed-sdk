@@ -3937,18 +3937,21 @@ export enum Action {
 
     /**
      * Action ID for the Parent TML action
-     * The parent action **TML** must be included to access TML-related options within the cascading menu (specific to answer page)
-     * 
+     * The parent action **TML** must be included to access TML-related options
+     * within the cascading menu (specific to answer page)
+     *
      * @example
      * ```js
-     * visibleActions: [Action.TML, Action.ExportTML, Action.EditTML] // to include specific TML actions
+     * // to include specific TML actions
+     * visibleActions: [Action.TML, Action.ExportTML, Action.EditTML]
+     *
      * ```
      * @example
      * ```js
      * hiddenAction: [Action.TML] // hide all TML actions
      * disabledActions: [Action.TML] // to disable all TML actions
      * ```
-     * 
+     *
      * @version SDK : 1.28.2 | Thoughtspot: 9.10.5.cl
      */
     TML = 'tml',
