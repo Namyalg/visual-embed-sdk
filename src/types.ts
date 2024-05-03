@@ -3938,7 +3938,7 @@ export enum Action {
     /**
      * Action ID for the Parent TML action
      * The parent action **TML** must be included to access TML-related options
-     * within the cascading menu (specific to answer page)
+     * within the cascading menu (specific to the answer page)
      *
      * @example
      * ```js
